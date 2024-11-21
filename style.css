@@ -1,0 +1,257 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e4; /* Light brown background */
+    color: #5d4037; /* Dark brown text */
+}
+
+header {
+    background-color: #d7ccc8; /* Light brown */
+    text-align: center;
+    padding: 20px 0;
+    color: #3e2723; /* Darker brown */
+}
+
+.container h2 {
+    text-align: center;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+/* Hero Section with Background Image */
+.hero {
+    background-image: url('images/pexels-pixabay-159211.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 100px 20px; /* Add space inside the section */
+    text-align: center; /* Center the text content */
+    color: black; /* White text for contrast against the background */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for text visibility */
+}
+
+.hero h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: bold; /* Bold font for emphasis */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+}
+
+.hero p {
+    font-size: 1.2em; /* Slightly larger font size for the paragraph */
+    line-height: 1.6; /* Improve readability */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+    margin: 0 auto; /* Center the paragraph */
+    max-width: 600px; /* Limit the width for readability */
+}
+
+
+
+
+/* Medicines Section */
+#medicines {
+    background-color: #fdf6e4; /* Light brownish background */
+    padding: 60px 20px; /* Add space around the section */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    text-align: center; /* Center-align the section content */
+}
+
+#medicines h2 {
+    font-size: 2.5em; /* Larger font for the heading */
+    color: #3e2723; /* Dark brown color for the heading */
+    margin-bottom: 30px; /* Add space below the heading */
+    font-weight: bold; /* Make the heading bold */
+}
+
+.grid {
+    display: grid; /* Use grid layout for the cards */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between the cards */
+    margin-top: 20px; /* Space above the grid */
+}
+
+.card {
+    background-color: #d7ccc8; /* Light brown card background */
+    border-radius: 10px; /* Rounded corners for the cards */
+    padding: 20px; /* Add space inside the cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for the cards */
+    text-align: center; /* Center-align the card content */
+    color: #3e2723; /* Dark brown text color */
+}
+
+.card h3 {
+    font-size: 1.5em; /* Font size for medicine names */
+    margin-bottom: 10px; /* Space below the medicine name */
+    color: #5d4037; /* Slightly lighter brown */
+}
+
+.card p {
+    margin-bottom: 10px; /* Space between paragraphs */
+    font-size: 1.1em; /* Adjust font size for readability */
+    color: #6d4c41; /* Medium brown */
+}
+
+.card .price {
+    font-weight: bold; /* Highlight the price */
+    color: #8d6e63; /* Medium brown */
+}
+
+
+
+.card {
+    background-color: #d7ccc8; /* Light brown */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    color: #3e2723;
+}
+
+.card .price {
+    font-size: 18px;
+    color: #6d4c41; /* Medium brown */
+}
+
+.add-to-cart-btn {
+    background-color: #8d6e63; /* Medium brown */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #5d4037; /* Dark brown */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fdf6e4; /* Light brownish background */
+    padding: 60px 20px; /* Add space around the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevated look */
+    text-align: center; /* Center-align the section content */
+}
+
+#contact h2 {
+    font-size: 2.5em; /* Larger font for the heading */
+    color: #3e2723; /* Dark brown color for the heading */
+    margin-bottom: 30px; /* Add space below the heading */
+    font-weight: bold; /* Make the heading bold */
+}
+
+form {
+    background-color: #efebe9; /* Slightly lighter brown background for the form */
+    padding: 30px; /* Add space inside the form */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form */
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    text-align: left; /* Left-align form elements for a professional layout */
+}
+
+form label {
+    display: block; /* Ensure labels are on their own line */
+    margin-bottom: 10px; /* Add space below labels */
+    font-size: 1.1em; /* Slightly larger font for better visibility */
+    color: #5d4037; /* Medium brown text */
+}
+
+form input, form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Add padding inside the inputs */
+    margin-bottom: 20px; /* Add space below inputs */
+    border: 1px solid #8d6e63; /* Light brown border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 1em; /* Standard font size */
+    color: #3e2723; /* Dark brown text */
+    background-color: #f5f5f5; /* Light background for inputs */
+}
+
+form button {
+    background-color: #8d6e63; /* Medium brown background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Space inside the button */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1.1em; /* Slightly larger font size for better visibility */
+    cursor: pointer; /* Pointer cursor for buttons */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+form button:hover {
+    background-color: #5d4037; /* Darker brown on hover */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d7ccc8;
+    color: #3e2723;
+}
+.cart-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#cart-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+}
+
+.cart-modal.hidden {
+    display: none;
+}
+
+.cart-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.remove-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#close-cart {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+

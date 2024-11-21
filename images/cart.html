@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .cart-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        h2 {
+            color: #3e2723;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #5d4037;
+        }
+    </style>
+</head>
+<body>
+    <div class="cart-container">
+        <h2>Product Added to Cart</h2>
+        <p id="product-name"></p>
+        <p id="product-description"></p>
+        <p id="product-price"></p>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        document.getElementById("product-name").textContent = `Name: ${urlParams.get("name")}`;
+        document.getElementById("product-description").textContent = `Description: ${urlParams.get("description")}`;
+        document.getElementById("product-price").textContent = `Price: ${urlParams.get("price")}`;
+    </script>
+</body>
+</html>
